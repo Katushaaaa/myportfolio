@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=El+Messiri&display=swap');
+
+body {
+    font-family: 'El Messiri', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+}
+header {
+    width: 1024px;
+}
+main {
+    width: 1024px;
+}
+footer {
+    color:#042940;
+    font-size: 15px;
+    width: 1024px;
+}
+ul {
+    width: 300px;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+}
+a{
+    text-decoration: none;
+    color:grey;
+}
+.container {
+    display:flex;
+    justify-content:space-between;
+    align-items: center;
+    width: 1024px;
+    margin: 20px;
+    background-color: ;
+    padding: 15px;
+    border-radius: 10px;
+}
+.text {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+img {
+    width: 400px;
+    height:400px;
+}
+.logo {
+    color:green;
+}
+.nice {
+    color:grey;
+    font-size: 30px;
+}
+.lets_create {
+    color:mediumvioletred;
+    font-size: 50px;
+}
+.student {
+    background-color:mediumvioletred;
+    color:white;
+    font-size: 11px;
+    margin:8px;
+    padding:8px;
+    height:16px;
+    border-radius: 8px;
+    text-align: center;
+}
+.resume {
+    width:120px;
+    height:50px;
+    
+    background-color:mediumvioletred;
+    color:white;
+    border-radius:9px;
+}
+.projects {
+    width:120px;
+    height:50px;
+    background-color:white;
+    color:black;
+    border-radius:9px;
+    border: solid black 1px;
+}
+.resproj {
+    display:flex;
+    justify-content: space-between;
+    
+}
