@@ -5,6 +5,7 @@ body {
     display: flex;
     flex-direction: column;
     align-items:center;
+    justify-content: center;
 }
 header {
     width: 1024px;
@@ -16,6 +17,7 @@ footer {
     color:#042940;
     font-size: 15px;
     width: 1024px;
+    text-align: center;
 }
 ul {
     width: 300px;
@@ -37,18 +39,21 @@ a{
     padding: 15px;
     border-radius: 10px;
 }
+.container:nth-child(2) {
+    flex-direction: column;
+    background-color: rgba(243, 243, 243, 0.521);
+}
 .text {
     display:flex;
     flex-direction: column;
-    align-items: center;
-    text-align: center;
+    align-items:flex-start;
 }
 img {
     width: 400px;
     height:400px;
 }
 .logo {
-    color:green;
+    color:#042940;
 }
 .nice {
     color:grey;
@@ -70,22 +75,47 @@ img {
 }
 .resume {
     width:120px;
-    height:50px;
-    
+    padding:15px;
     background-color:mediumvioletred;
     color:white;
     border-radius:9px;
+    margin: 15px;
+    text-align: center;
+    display:block;
 }
 .projects {
     width:120px;
-    height:50px;
+    padding:15px;
     background-color:white;
-    color:black;
+    color: grey;
     border-radius:9px;
-    border: solid black 1px;
+    border: solid grey 1px;
+    margin: 15px;
+    text-align: center;
+    display:block;
 }
 .resproj {
     display:flex;
     justify-content: space-between;
     
+}
+.grey {
+    color: grey;
+    font-size: 15px;
+    width: 600px;
+}
+.black {
+    font-size: 20px;
+    color:#042940;
+}
+.about {
+    color:#042940
+}
+.icons {
+    width: 200px;
+    color:#042940;
+}
+.fa-brands {
+    font-size: 30px;
+    padding: 8px;
 }
